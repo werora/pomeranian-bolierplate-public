@@ -13,6 +13,11 @@ import { blockRouterMetaData as blockRouterMetaDataJsFunctionsZadania } from './
 import { blockRouterMetaData as HitTheMoleGame } from './HitTheMoleGame/router-data';
 import { blockRouterMetaData as MemoryGame } from './MemoryGame/router-data';
 import { blockRouterMetaData as OOP } from './Exercise-OOP//router-data';
+import { blockRouterMetaData as Promises } from './Exercise-promises///router-data';
+import { blockRouterMetaData as  AsyncandMe} from './AsyncAwaitMeandYou///router-data';
+import { blockRouterMetaData as  PromiseUsage} from './PromiseUseage/router-data';
+
+
 
 export const blockRouterMetaData = [
   blockRouterMetaDataJsVariables1,
@@ -28,5 +33,8 @@ export const blockRouterMetaData = [
   HitTheMoleGame,
   MemoryGame,
   OOP,
+  Promises,
+  AsyncandMe,
+  PromiseUsage,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
