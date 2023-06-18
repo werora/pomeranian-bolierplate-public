@@ -16,6 +16,9 @@ import { blockRouterMetaData as OOP } from './Exercise-OOP//router-data';
 import { blockRouterMetaData as Promises } from './Exercise-promises///router-data';
 import { blockRouterMetaData as  AsyncandMe} from './AsyncAwaitMeandYou///router-data';
 import { blockRouterMetaData as  PromiseUsage} from './PromiseUseage/router-data';
+import { blockRouterMetaData as  PromiseUsageMethods} from './PromiseUsageMethods/router-data';
+import { blockRouterMetaData as PromiseTraining } from './PromiseMethodsTraining/router-data';
+
 
 
 
@@ -36,5 +39,7 @@ export const blockRouterMetaData = [
   Promises,
   AsyncandMe,
   PromiseUsage,
+  PromiseUsageMethods,
+  PromiseTraining,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
